@@ -1,0 +1,740 @@
+{
+            "id": "renal_dialysis_reception",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -1.65], [0.35, -1.65], [0.35, 1.65], [-0.35, 1.65] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis",
+                "class": "reception",
+                "height": 3,
+                "tVector": [17.5, 4, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_sedie-1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.25, -0.9], [0.25, -0.9], [0.25, 0.9], [-0.25, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [21, 13, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_sedie-2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.25, -0.9], [0.25, -0.9], [0.25, 0.9], [-0.25, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [21, 15.5, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_sedie-3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.25, -0.9], [0.25, -0.9], [0.25, 0.9], [-0.25, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [19.5, 13, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_sedie-4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.25, -0.9], [0.25, -0.9], [0.25, 0.9], [-0.25, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [19.5, 15.5, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_letto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 2, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_rene1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 3.25, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_letto2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 5.25, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_rene2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 6.5, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_letto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 2, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_rene3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 3.25, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_letto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 5.25, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room1_rene4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room1",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 6.5, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_letto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 2, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_rene1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 3.25, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_letto2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 5.25, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_rene2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 6.5, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_letto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 2, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_rene3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 3.25, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_letto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 5.25, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room2_rene4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room2",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 6.5, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_letto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 2, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_rene1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 3.25, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_letto2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 5.25, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_rene2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 6.5, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_letto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 2, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_rene3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 3.25, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_letto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 5.25, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room3_rene4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room3",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 6.5, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_letto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 2, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_rene1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 3.25, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_letto2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "letto",
+                "height": 3,
+                "tVector": [1.75, 5.25, 0],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_rene2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [0.75, 6.5, 0.43],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_letto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 2, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_rene3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 3.25, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_letto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-1.2, -0.6], [1.2, -0.6], [1.2, 0.6], [-1.2, 0.6] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "letto",
+                "height": 3,
+                "tVector": [5.9, 5.25, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "renal_dialysis_room4_rene4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "renal_dialysis_room4",
+                "class": "reneArtificiale",
+                "height": 3,
+                "tVector": [6.9, 6.5, 0.43],
+                "rVector": [90, 90, 0]
+            }
+        }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>HIJSON Feature editor</title> 
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    </head> 
+    <body>
+        <script src="../../featureEditor/assets/libs/jquery.min.js"></script> 
+        <script src="../../featureEditor/assets/libs/three.min.js"></script>
+        <script src="../../featureEditor/assets/libs/Stats.min.js"></script>
+        <script src="../../featureEditor/assets/libs/dat.gui.min.js"></script>
+        <script src="../../featureEditor/assets/libs/TrackballControls.js"></script>
+        <script src="../../featureEditor/assets/init.js"></script>
+        <script>
+
+            function get3DModel() {
+
+                var pallone = new THREE.Object3D();
+
+                //piano della scena
+                var planeGeometry = new THREE.PlaneGeometry(5, 3, 20, 20);
+                var planeMaterial = new THREE.MeshLambertMaterial({color: 0xbbbbbb});
+                var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+                plane.receiveShadow = true;
+                plane.rotation.x = -Math.PI/2;
+                pallone.add(plane);
+
+
+                do{
+                    var raggio = Math.random().toPrecision(1);
+                }
+                while (raggio < 0.1 || raggio > 0.5);
+
+
+                var x = Math.random().toPrecision(2);
+
+                if (x <= 0.25)
+                    colore = 0x39a083;
+                else if (x > 0.25 && x <= 0.5) 
+                    colore = 0xf8ff8c;
+                else if (x > 0.5 && x <= 0.75) 
+                    colore = 0xffa857;
+                else
+                    colore = 0xb1c5ff;
+
+                var g_palla = new THREE.SphereGeometry(raggio, 20, 20);
+                var m_palla = new THREE.MeshLambertMaterial({color: colore});
+                var palla = new THREE.Mesh(g_palla, m_palla);
+                palla.position.y = raggio;
+                
+
+                pallone.add(palla);
+                
+
+                //tutti gli oggetti proiettano e ricevono ombra
+                pallone.traverse( function (object) {
+                    if (object instanceof THREE.Mesh) {
+                        object.castShadow = true;
+                        object.receiveShadow = true;
+                    }
+                } );
+
+                return pallone;
+
+            }
+
+        </script>
+    </body>
+</html>

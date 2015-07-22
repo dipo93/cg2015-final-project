@@ -1,0 +1,4853 @@
+{
+    "id": "architectures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "type": "Feature",
+            "id": "level_0",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [ 
+                    [ [0, 0], [37.1, 0], [37.1, 117.6], [0, 117.6], [0, 0] ]
+                ]  
+            },
+            "properties": 
+            {
+                "class": "level",
+                "parent": "building",
+                "description": "Mura perimetrali",
+                "height": 3.5,
+                "thickness": 0.3,
+                "tVector": [0, 0, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [20.75, 0], [20.75, 21], [13.25, 21], [13.25, 24], [4.75, 24], [4.75, 31.5], [0, 31.5], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1",
+                    "tVector": [4.2, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [22, 0], [22, 15.8], [0, 15.8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2",
+                    "tVector": [0, 33.6, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [22, 0], [22, 17.8], [0, 17.8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "renal_dialysis",
+                    "tVector": [0, 49.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, -8.4], [17, -8.4], [17, -12.6], [33, -12.6], [33, -8.4], [37.2, -8.4], [37.2, 8.4], [33, 8.4], [33, 0], [17, 0], [17, 8.4], [0, 8.4], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine",
+                    "tVector": [0, 84, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [17, 0], [17, 5.6], [33, 5.6], [33, 0], [37.2, 0], [37.2, 22.4], [0, 22.4], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy",
+                    "tVector": [0, 95.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [20.75, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno sud",
+                    "tVector": [4.2, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [31.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno ovest",
+                    "tVector": [4.2, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-est_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [21, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno est",
+                    "tVector": [24.95, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-nord_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno nord",
+                    "tVector": [17.5, 21, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-est_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno est",
+                    "tVector": [17.5, 21, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-nord_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno nord",
+                    "tVector": [9, 24, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-est_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno est",
+                    "tVector": [8.95, 24, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1-nord_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.75, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient1 esterno nord",
+                    "tVector": [4.2, 31.5, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_outpatient1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1-nord_3",
+                    "thickness": 5,
+                    "description": "Porta reparto outpatient1",
+                    "tVector": [1.875, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2-sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient2 esterno sud",
+                    "tVector": [0, 33.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2", "renal_dialysis"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_outpatient2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2-sud",
+                    "thickness": 5,
+                    "description": "Porta reparto outpatient2",
+                    "tVector": [6.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2-est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [15.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient2 esterno est",
+                    "tVector": [22, 33.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2-nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient2 esterno nord",
+                    "tVector": [0, 49.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2-ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [15.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall outpatient2 esterno ovest",
+                    "tVector": [0, 33.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis-sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall renal_dialysis esterno sud",
+                    "tVector": [0, 49.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2", "renal_dialysis"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis-est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [17.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall renal_dialysis esterno est",
+                    "tVector": [22, 49.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_renal_dialysis",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "renal_dialysis-est",
+                    "thickness": 5,
+                    "description": "Porta reparto renal_dialysis",
+                    "tVector": [8.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis-nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall renal_dialysis esterno nord",
+                    "tVector": [0, 67.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["renal_dialysis"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis-ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [17.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall renal_dialysis esterno ovest",
+                    "tVector": [0, 49.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-ovest_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno ovest",
+                    "tVector": [0, 84, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-sud_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno sud",
+                    "tVector": [0, 84, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-ovest_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno ovest",
+                    "tVector": [7.5, 75.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-sud_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno sud",
+                    "tVector": [7.5, 75.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-ovest_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno ovest",
+                    "tVector": [17, 71.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-sud_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno sud",
+                    "tVector": [17, 71.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-est_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno est",
+                    "tVector": [33, 71.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-sud_4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno sud",
+                    "tVector": [33, 75.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-est_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno est",
+                    "tVector": [37.2, 75.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-nord_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno nord",
+                    "tVector": [33, 92.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-est_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno est",
+                    "tVector": [33, 84, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-nord_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno nord",
+                    "tVector": [17, 84, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-ovest_4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno ovest",
+                    "tVector": [17, 84, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine-nord_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [17, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall physical_medicine esterno nord",
+                    "tVector": [0, 92.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_physical_medicine",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine-nord_3",
+                    "thickness": 5,
+                    "description": "Porta reparto physical_medicine",
+                    "tVector": [8, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-ovest_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno ovest",
+                    "tVector": [0, 95.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-sud_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [17, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno sud",
+                    "tVector": [0, 95.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_chemotherapy",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy-sud_1",
+                    "thickness": 5,
+                    "description": "Porta reparto chemotherapy",
+                    "tVector": [8, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-ovest_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno ovest",
+                    "tVector": [17, 95.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-sud_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno sud",
+                    "tVector": [17, 100.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-est_1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno ovest",
+                    "tVector": [33, 95.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-sud_3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno sud",
+                    "tVector": [33, 95.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-est_2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno est",
+                    "tVector": [37.2, 95.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy-nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [37.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall chemotherapy esterno nord",
+                    "tVector": [0, 117.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.15, 0], [4.15, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room1",
+                    "tVector": [4.2, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.15, 0], [4.15, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room2",
+                    "tVector": [8.35, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.15, 0], [4.15, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room3",
+                    "tVector": [12.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.15, 0], [4.15, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room4",
+                    "tVector": [16.65, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.15, 0], [4.15, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room5",
+                    "tVector": [20.8, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room6",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [6, 0], [6, 4.15], [0, 4.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room6",
+                    "tVector": [18.95, 8.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room7",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [6, 0], [6, 4.15], [0, 4.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room7",
+                    "tVector": [18.95, 12.55, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room8",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [6, 0], [6, 4.15], [0, 4.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room8",
+                    "tVector": [18.95, 16.7, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room9",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [6, 0], [6, 4.15], [0, 4.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room9",
+                    "tVector": [4.2, 12.55, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room10",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [6, 0], [6, 4.15], [0, 4.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_room10",
+                    "tVector": [4.2, 8.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3, 0], [3, 3], [0, 3], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_toilet1",
+                    "tVector": [14.45, 21, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3, 0], [3, 3], [0, 3], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient1_toilet2",
+                    "tVector": [11.45, 21, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room1-2",
+                    "tVector": [8.35, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room1","outpatient1_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room1 with door",
+                    "tVector": [4.2, 6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room1_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room1",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room2-3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room2-3",
+                    "tVector": [12.5, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room2","outpatient1_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room2 with door",
+                    "tVector": [8.35, 6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room2_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room2",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room3-4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room3-4",
+                    "tVector": [16.65, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room3","outpatient1_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room3_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room3 with door",
+                    "tVector": [12.5, 6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room3_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room3",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room4-5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room4-5",
+                    "tVector": [20.8, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room4","outpatient1_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room4_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room4 with door",
+                    "tVector": [16.65, 6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room4_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room4",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room5_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room5 with door",
+                    "tVector": [20.8, 6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room5_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room5",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room6_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room6",
+                    "tVector": [18.95, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room6-7",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room6-7",
+                    "tVector": [18.95, 12.55, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room6","outpatient1_room7"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room6_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room6 with door",
+                    "tVector": [18.95, 8.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room6",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room6_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room6",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room7-8",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room7-8",
+                    "tVector": [18.95, 16.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room7","outpatient1_room8"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room7_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room7 with door",
+                    "tVector": [18.95, 12.55, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room7"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room7",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room7_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room7",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room8_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room8 with door",
+                    "tVector": [18.95, 16.7, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room8"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room8",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room8_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room8",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room9_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room9",
+                    "tVector": [4.2, 16.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room9"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room9-10",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room9-10",
+                    "tVector": [4.2, 12.55, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room9","outpatient1_room10"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room9_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room9 with door",
+                    "tVector": [10.2, 12.55, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room9"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room9",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room9_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room9",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room10_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room10",
+                    "tVector": [4.2, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room10"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_room10_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_room10 with door",
+                    "tVector": [10.2, 8.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_room10"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_room10",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_room10_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_room10",
+                    "tVector": [1.575, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_toilet1 with door",
+                    "tVector": [14.45, 21, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_toilet1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_toilet1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_toilet1_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_toilet1",
+                    "tVector": [1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_toilet1-2",
+                    "tVector": [14.5, 21, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_toilet1","outpatient1_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet2_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_toilet2",
+                    "tVector": [11.5, 21, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient1_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_toilet2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient1_toilet2 with door",
+                    "tVector": [11.5, 21, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient1_porta_toilet2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient1_toilet2_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient1_toilet2",
+                    "tVector": [1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.4, 0], [4.4, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_room1",
+                    "tVector": [0, 43.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.4, 0], [4.4, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_room2",
+                    "tVector": [4.4, 43.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.4, 0], [4.4, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_room3",
+                    "tVector": [8.8, 43.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.4, 0], [4.4, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_room4",
+                    "tVector": [13.2, 43.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.4, 0], [4.4, 6], [0, 6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_room5",
+                    "tVector": [17.6, 43.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.5, 0], [2.5, 4], [0, 4], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_toilet1",
+                    "tVector": [19.5, 33.6, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.5, 0], [2.5, 4], [0, 4], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "outpatient2_toilet2",
+                    "tVector": [17, 33.6, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room1-2",
+                    "tVector": [4.4, 43.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_room1","outpatient2_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room1 with door",
+                    "tVector": [0, 43.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient1_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_room1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_room1_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_room1",
+                    "tVector": [1.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room2-3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room2-3",
+                    "tVector": [8.8, 43.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_room2","outpatient2_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room2 with door",
+                    "tVector": [4.4, 43.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_room2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_room2_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_room2",
+                    "tVector": [1.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room3-4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room3-4",
+                    "tVector": [13.2, 43.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_room3","outpatient2_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room3_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room3 with door",
+                    "tVector": [8.8, 43.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_room3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_room3_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_room3",
+                    "tVector": [1.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room4-5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room4-5",
+                    "tVector": [17.6, 43.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_room4","outpatient2_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room4_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room4 with door",
+                    "tVector": [13.2, 43.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_room4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_room4_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_room4",
+                    "tVector": [1.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_room5_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_room5 with door",
+                    "tVector": [17.6, 43.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_room5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_room5_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_room5",
+                    "tVector": [1.7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_toilet1 with door",
+                    "tVector": [19.5, 37.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_toilet1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_toilet1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_toilet1_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_toilet1",
+                    "tVector": [0.75, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_toilet1-2",
+                    "tVector": [19.5, 33.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_toilet1","outpatient2_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_toilet2 with door",
+                    "tVector": [17, 37.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["outpatient2_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_porta_toilet2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "outpatient2_toilet2_door",
+                    "thickness": 5,
+                    "description": "Porta outpatient2_toilet2",
+                    "tVector": [0.75, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "outpatient2_toilet2_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall outpatient2_toilet2",
+                    "tVector": [17, 33.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["outpatient2_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, 8], [0, 8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "renal_dialysis_room1",
+                    "tVector": [0, 49.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, 8], [0, 8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "renal_dialysis_room2",
+                    "tVector": [7.5, 49.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, 8], [0, 8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "renal_dialysis_room3",
+                    "tVector": [0, 59.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, 8], [0, 8], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "renal_dialysis_room4",
+                    "tVector": [7.5, 59.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room1 with door",
+                    "tVector": [0, 57.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["renal_dialysis_room1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_porta_room1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "renal_dialysis_room1_door",
+                    "thickness": 5,
+                    "description": "Porta renal_dialysis_room1",
+                    "tVector": [3.25, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room1-2",
+                    "tVector": [7.5, 49.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis_room1","renal_dialysis_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room2 with door",
+                    "tVector": [7.5, 57.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["renal_dialysis_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_porta_room2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "renal_dialysis_room2_door",
+                    "thickness": 5,
+                    "description": "Porta renal_dialysis_room2",
+                    "tVector": [3.25, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room2_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room2",
+                    "tVector": [15, 49.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room3_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room3 with door",
+                    "tVector": [0, 59.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["renal_dialysis_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_porta_room3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "renal_dialysis_room3_door",
+                    "thickness": 5,
+                    "description": "Porta renal_dialysis_room3",
+                    "tVector": [3.25, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room3-4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room3-4",
+                    "tVector": [7.5, 59.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis_room3","renal_dialysis_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room4_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room4 with door",
+                    "tVector": [7.5, 59.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["renal_dialysis_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_porta_room4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "renal_dialysis_room4_door",
+                    "thickness": 5,
+                    "description": "Porta renal_dialysis_room4",
+                    "tVector": [3.25, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "renal_dialysis_room4_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall renal_dialysis_room4",
+                    "tVector": [15, 59.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["renal_dialysis_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3.2, 0], [3.2, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room1",
+                    "tVector": [17, 71.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3.2, 0], [3.2, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room2",
+                    "tVector": [20.2, 71.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3.2, 0], [3.2, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room3",
+                    "tVector": [23.4, 71.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3.2, 0], [3.2, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room4",
+                    "tVector": [26.6, 71.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [3.2, 0], [3.2, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room5",
+                    "tVector": [29.8, 71.4, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room6",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.2, 0], [4.2, 3.2], [0, 3.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_room6",
+                    "tVector": [33, 75.6, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_toilet1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.1, 0], [2.1, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_toilet1",
+                    "tVector": [33, 88.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_toilet2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.1, 0], [2.1, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "physical_medicine_toilet2",
+                    "tVector": [35.1, 88.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room1 with door",
+                    "tVector": [17, 75.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room1_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room1",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room1-2",
+                    "tVector": [20.2, 71.5, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_room1","physical_medicine_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room2 with door",
+                    "tVector": [20.2, 75.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room2_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room2",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room2-3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room2-3",
+                    "tVector": [23.4, 71.5, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_room2","physical_medicine_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room3_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room3 with door",
+                    "tVector": [23.4, 75.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room3_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room3",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room3-4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room3-4",
+                    "tVector": [26.6, 71.5, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_room3","physical_medicine_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room4_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room4 with door",
+                    "tVector": [26.6, 75.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room4_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room4",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room4-5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room4-5",
+                    "tVector": [29.8, 71.5, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_room4","physical_medicine_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room5_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room5 with door",
+                    "tVector": [29.8, 75.7, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room5_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room5",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room6_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room6 with door",
+                    "tVector": [32.9, 75.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_room6",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_room6_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_room6",
+                    "tVector": [1.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_room6_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_room6",
+                    "tVector": [32.9, 78.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_toilet1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_toilet1 with door",
+                    "tVector": [35.1, 88.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_toilet1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_toilet1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_toilet1_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_toilet1",
+                    "tVector": [0.55, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_toilet1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_toilet1-2",
+                    "tVector": [35.1, 88.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["physical_medicine_toilet1","physical_medicine_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_toilet2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall physical_medicine_toilet2 with door",
+                    "tVector": [33, 88.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["physical_medicine_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "physical_medicine_porta_toilet2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "physical_medicine_toilet2_door",
+                    "thickness": 5,
+                    "description": "Porta physical_medicine_toilet2",
+                    "tVector": [0.55, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roombig",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [17, 0], [17, 12.6], [0, 12.6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room_big",
+                    "tVector": [0, 105, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roomsmall",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [7.5, 0], [7.5, 12.6], [0, 12.6], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room_small",
+                    "tVector": [17, 105, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.2, 0], [4.2, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room1",
+                    "tVector": [24.5, 114.45, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.2, 0], [4.2, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room2",
+                    "tVector": [24.5, 111.3, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.2, 0], [4.2, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room3",
+                    "tVector": [24.5, 108.15, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.2, 0], [4.2, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room4",
+                    "tVector": [24.5, 105, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.3, 0], [4.3, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room5",
+                    "tVector": [32.9, 114.45, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room6",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.3, 0], [4.3, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room6",
+                    "tVector": [32.9, 111.3, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room7",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.3, 0], [4.3, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room7",
+                    "tVector": [32.9, 108.15, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room8",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4.3, 0], [4.3, 3.15], [0, 3.15], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_room8",
+                    "tVector": [32.9, 105, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_toilet1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.1, 0], [2.1, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_toilet1",
+                    "tVector": [33, 95.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_toilet2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [2.1, 0], [2.1, 4.2], [0, 4.2], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "chemotherapy_toilet2",
+                    "tVector": [35.1, 95.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roombig_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [17, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_roombig with door",
+                    "tVector": [0, 105, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_roombig"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_roombig",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_roombig_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_roombig",
+                    "tVector": [8, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roombig-small",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_roombig-small",
+                    "tVector": [17, 105, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_roombig","chemotherapy_roomsmall"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roomsmall_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_roomsmall with door",
+                    "tVector": [17, 105, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_roomsmall"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_roomsmall",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_roomsmall_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_roomsmall",
+                    "tVector": [3.25, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_roomsmall_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_roomsmall",
+                    "tVector": [24.5, 105, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_roomsmall"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room1 with door",
+                    "tVector": [28.7, 114.45, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room1_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room1",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room1-2",
+                    "tVector": [24.5, 114.45, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room1","chemotherapy_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room2 with door",
+                    "tVector": [28.7, 111.3, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room2_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room2",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room2-3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room2-3",
+                    "tVector": [24.5, 111.3, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room2","chemotherapy_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room3_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room3 with door",
+                    "tVector": [28.7, 108.15, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room3"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room3_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room3",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room3-4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room3-4",
+                    "tVector": [24.5, 108.15, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room3","chemotherapy_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room4_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room4 with door",
+                    "tVector": [28.7, 105, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room4_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room4",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room4_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room4",
+                    "tVector": [24.5, 105, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room4"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room5_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room5 with door",
+                    "tVector": [32.9, 114.45, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room5"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room5_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room5",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room5-6",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room5-6",
+                    "tVector": [32.9, 114.45, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room5","chemotherapy_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room6_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room6 with door",
+                    "tVector": [32.9, 111.3, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room6"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room6",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room6_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room6",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room6-7",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room6-7",
+                    "tVector": [32.9, 111.3, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room6","chemotherapy_room7"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room7_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room7 with door",
+                    "tVector": [32.9, 108.15, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room7"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room7",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room7_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room7",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room7-8",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room7-8",
+                    "tVector": [32.9, 108.15, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room7","chemotherapy_room8"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room8_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room8 with door",
+                    "tVector": [32.9, 105, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_room8"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_room7",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_room8_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_room8",
+                    "tVector": [1.075, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_room8_ext",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.3, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_room8",
+                    "tVector": [32.9, 105, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_room8"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_toilet1_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_toilet1 with door",
+                    "tVector": [35.1, 99.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_toilet1"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_toilet1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_toilet1_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_toilet1",
+                    "tVector": [0.55, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_toilet1-2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_toilet1-2",
+                    "tVector": [35.1, 95.2, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["chemotherapy_toilet1","chemotherapy_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_toilet2_door",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "thickness": 0.1,
+                    "parent": "level_0",
+                    "description": "wall chemotherapy_toilet2 with door",
+                    "tVector": [33, 99.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["chemotherapy_toilet2"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "chemotherapy_porta_toilet2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "chemotherapy_toilet2_door",
+                    "thickness": 5,
+                    "description": "Porta chemotherapy_toilet2",
+                    "tVector": [0.55, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        }
+    ]
+}

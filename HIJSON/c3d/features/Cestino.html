@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>HIJSON Feature editor</title> 
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    </head> 
+    <body>
+        <script src="../../featureEditor/assets/libs/jquery.min.js"></script> 
+        <script src="../../featureEditor/assets/libs/three.min.js"></script>
+        <script src="../../featureEditor/assets/libs/Stats.min.js"></script>
+        <script src="../../featureEditor/assets/libs/dat.gui.min.js"></script>
+        <script src="../../featureEditor/assets/libs/TrackballControls.js"></script>
+        <script src="../../featureEditor/assets/init.js"></script>
+        <script>
+
+            function get3DModel() {
+
+                var cestino = new THREE.Object3D();
+
+                //piano della scena
+                var planeGeometry = new THREE.PlaneGeometry(5, 3, 20, 20);
+                var planeMaterial = new THREE.MeshLambertMaterial({color: 0xbbbbbb});
+                var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+                plane.receiveShadow = true;
+                plane.rotation.x = -Math.PI/2;
+                cestino.add(plane);
+
+
+                //fondo e corpo del cestino
+                var g_fondo = new THREE.CircleGeometry(0.15, 40);
+                var m_fondo = new THREE.MeshLambertMaterial({color: 0x333333, side: THREE.DoubleSide});
+                var g_corpo = new THREE.CylinderGeometry(0.2, 0.15, 0.4, 40, 1, true);
+
+                var fondo = new THREE.Mesh(g_fondo, m_fondo);
+                var corpo = new THREE.Mesh(g_corpo, m_fondo);
+
+                fondo.rotation.x = Math.PI/2;
+                corpo.rotation.x = -Math.PI/2;
+                fondo.position.y = 0.001;
+                corpo.position.z = -0.2;
+
+                cestino.add(fondo);
+                fondo.add(corpo);
+
+
+                //corona superiore
+                var g_corona = new THREE.TorusGeometry(0.2, 0.01, 10,40);
+                var m_corona = new THREE.MeshLambertMaterial({color: 0xC0C0C0});
+                var corona = new THREE.Mesh(g_corona, m_corona);
+
+                corona.rotation.x = Math.PI/2;
+                corona.position.y = 0.2;
+                corpo.add(corona);
+
+
+                //tutti gli oggetti proiettano e ricevono ombra
+                cestino.traverse( function (object) {
+                    if (object instanceof THREE.Mesh) {
+                        object.castShadow = true;
+                        object.receiveShadow = true;
+                    }
+                } );
+
+                return cestino;
+
+            }
+
+        </script>
+    </body>
+</html>

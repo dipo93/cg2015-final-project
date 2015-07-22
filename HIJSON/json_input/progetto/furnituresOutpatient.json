@@ -1,0 +1,1500 @@
+{
+            "id": "outpatient1_room1_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room1",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [0.75, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room1_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room1",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [1, 5.5, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room1_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room1",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.5, 5.5, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room1_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room1",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.65, 1.35, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room2_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room2",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [0.75, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room2_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room2",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [1, 5.5, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room2_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room2",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.5, 5.5, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room2_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room2",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.65, 1.35, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room3_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room3",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [0.75, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room3_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room3",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [1, 5.5, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room3_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room3",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.5, 5.5, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room3_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room3",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.65, 1.35, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room4_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room4",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [0.75, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room4_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room4",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [1, 5.5, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room4_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room4",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.5, 5.5, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room4_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room4",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.65, 1.35, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room5_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room5",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [0.75, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room5_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room5",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [1, 5.5, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room5_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room5",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.5, 5.5, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room5_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room5",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.65, 1.35, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room6_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room6",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [5, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room6_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room6",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.5, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room6_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room6",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [0.5, 3.7, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room6_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room6",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3, 3.25, 0.6],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room7_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room7",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [5, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room7_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room7",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.5, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room7_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room7",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [0.5, 3.7, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room7_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room7",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3, 3.25, 0.6],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room8_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room8",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [5, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room8_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room8",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.5, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room8_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room8",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [0.5, 3.7, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room8_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room8",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3, 3.25, 0.6],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room9_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room9",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room9_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room9",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [5.5, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room9_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room9",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [5.5, 3.7, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room9_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room9",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.75, 3.15, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room10_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.425, -0.95], [0.425, -0.95], [0.425, 0.95], [-0.425, 0.95] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room10",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1, 2, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room10_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room10",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [5.5, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room10_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room10",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [5.5, 3.7, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_room10_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_room10",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [2.75, 3.15, 0.6],
+                "rVector": [90, 45, 0]
+            }
+        },
+        {
+            "id": "outpatient1_toilet1_water",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_toilet1",
+                "class": "water",
+                "height": 3,
+                "tVector": [1.5, 2.55, 0.15],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient1_toilet1_lavandino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_toilet1",
+                "class": "lavandino",
+                "height": 3,
+                "tVector": [2.647, 1.5, 0.8],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient1_toilet2_water",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_toilet2",
+                "class": "water",
+                "height": 3,
+                "tVector": [1.6, 2.55, 0.15],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient1_toilet2_lavandino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient1_toilet2",
+                "class": "lavandino",
+                "height": 3,
+                "tVector": [2.747, 1.5, 0.8],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room1_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.95, -0.425], [0.95, -0.425], [0.95, 0.425], [-0.95, 0.425] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room1",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1.5, 5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room1_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room1",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.75, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room1_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room1",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.8, 0.75, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room1_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room1",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3.25, 3.5, 0.6],
+                "rVector": [90, -45, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room2_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.95, -0.425], [0.95, -0.425], [0.95, 0.425], [-0.95, 0.425] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room2",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1.5, 5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room2_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room2",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.75, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room2_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room2",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.8, 0.75, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room2_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room2",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3.25, 3.5, 0.6],
+                "rVector": [90, -45, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room3_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.95, -0.425], [0.95, -0.425], [0.95, 0.425], [-0.95, 0.425] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room3",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1.5, 5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room3_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room3",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.75, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room3_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room3",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.8, 0.75, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room3_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room3",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3.25, 3.5, 0.6],
+                "rVector": [90, -45, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room4_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.95, -0.425], [0.95, -0.425], [0.95, 0.425], [-0.95, 0.425] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room4",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1.5, 5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room4_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room4",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.75, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room4_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room4",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.8, 0.75, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room4_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room4",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3.25, 3.5, 0.6],
+                "rVector": [90, -45, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room5_lettino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.95, -0.425], [0.95, -0.425], [0.95, 0.425], [-0.95, 0.425] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room5",
+                "class": "lettino",
+                "height": 3,
+                "tVector": [1.5, 5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room5_appendiabiti",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room5",
+                "class": "appendiabiti",
+                "height": 3,
+                "tVector": [0.75, 0.75, 0.75],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room5_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room5",
+                "class": "cestino",
+                "height": 3,
+                "tVector": [3.8, 0.75, 0.005],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_room5_divisorio",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_room5",
+                "class": "divisorio",
+                "height": 3,
+                "tVector": [3.25, 3.5, 0.6],
+                "rVector": [90, -45, 0]
+            }
+        },
+        {
+            "id": "outpatient2_toilet1_water",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_toilet1",
+                "class": "water",
+                "height": 3,
+                "tVector": [1, 0.5, 0.15],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "outpatient2_toilet1_lavandino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_toilet1",
+                "class": "lavandino",
+                "height": 3,
+                "tVector": [2.095, 3, 0.8],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_toilet2_water",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_toilet2",
+                "class": "water",
+                "height": 3,
+                "tVector": [1.1, 0.5, 0.15],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "outpatient2_toilet2_lavandino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                [
+                   [ [0, 0] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2_toilet2",
+                "class": "lavandino",
+                "height": 3,
+                "tVector": [2.195, 3, 0.8],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_reception",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -1.65], [0.35, -1.65], [0.35, 1.65], [-0.35, 1.65] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "reception",
+                "height": 3,
+                "tVector": [3, 3.7, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [10, 1.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [12.5, 1.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [15, 1.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [10, 3, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [12.5, 3, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "outpatient2_sedie-6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.25], [0.9, -0.25], [0.9, 0.25], [-0.9, 0.25] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "outpatient2",
+                "class": "serieSedie",
+                "height": 3,
+                "tVector": [15, 3, 0],
+                "rVector": [90, 0, 0]
+            }
+        }
