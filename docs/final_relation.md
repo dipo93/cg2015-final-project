@@ -66,7 +66,7 @@ mentre un altro ambiente, più grande e spazioso, svolge la funzione di una sort
 #### 6. Presentazione modelli creati
 Di seguito sono mostrati i modelli 3D degli oggetti creati durante lo sviluppo del progetto, e le relative immagini da cui si è presa ispirazione per la loro creazione.
 
-##### 6.1 Attaccapanni (attaccapanni.js)
+##### 6.1 Attaccapanni (appendiabiti.js)
 Il portaombrelli è stato costruito combinando cinque forme toroidali, la base dell'attaccapanni è leggermente bombata per evitare che gli ombrelli scivolino a terra. I ganci sono stati resi trasparenti per simulare l'effetto della plastica trasparente.  
 ![attaccapanni](https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11703192_10207705863551007_3042037437469741522_n.jpg?oh=17d1bc79fc36dcc74329843967125659&oe=5654A7C5)
 ![mod_attaccapanni](http://www.metalchaise.it/public/prodotti/400_AL.jpg)
